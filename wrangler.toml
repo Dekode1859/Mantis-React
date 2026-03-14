@@ -1,0 +1,8 @@
+name = "mantis-cdn"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+[vars]
+# Environment variables to be set in Cloudflare dashboard:
+# VITE_API_BASE_URL = "https://api.mantis.example.com"
+# VITE_CLOUDFLARE_ANALYTICS_TOKEN = "your_token_here"
