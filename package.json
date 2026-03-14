@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "wrangler pages deploy dist",
-    "deploy:preview": "wrangler pages deploy dist --branch=preview"
+    "deploy": "npx wrangler pages deploy dist --project-name=mantis-cdn",
+    "deploy:preview": "npx wrangler pages deploy dist --project-name=mantis-cdn --branch=preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
